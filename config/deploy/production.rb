@@ -70,7 +70,7 @@ namespace :deploy do
                 execute :mkdir, "-p", dump_path, "&&", :mysqldump, "-u", db_user, "-p#{db_password}", db, ">", dump_path + "/.sql"
             end
 
-            execute :mv, ".env.staging .env"
+            execute :mv, ".env.production .env"
             execute :find, ". -type d -exec chmod 755 '{}' ';'"
             execute :find, ". -type f -exec chmod 644 '{}' ';'"
 		  end
