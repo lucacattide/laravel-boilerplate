@@ -1,2 +1,9 @@
 User-agent: *
-Disallow:
+#Sitemap: https://<dominio>/sitemap.xml
+Allow: /css/
+Allow: /img/
+Allow: /js
+Allow: /js/lib/
+Allow: /.htaccess
+Allow: /favicon.png
+Allow: /index.php

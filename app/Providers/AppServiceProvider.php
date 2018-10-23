@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Http\Resources\Json\Resource;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +15,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // Definisce la lunghezza standard dei campi varchar
+        Schema::defaultStringLength(191);
+        // Disabilita il wrapping dei dati richiesti
+        Resource::withoutWrapping();
     }
 
     /**

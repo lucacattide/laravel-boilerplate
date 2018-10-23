@@ -8,6 +8,8 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+// TODO: Rimuovere in produzione
+Vue.config.productionTip = false;
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15,8 +17,32 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+import VueRouter from 'vue-router';
+import VueMaterial from 'vue-material';
+import 'vue-material/dist/vue-material.min.css';
 
-const app = new Vue({
-    el: '#app'
+// Inizializzazione Vue Router
+Vue.use(VueRouter);
+// Inizializzazione Vue Material
+Vue.use(VueMaterial)
+
+// Dichiarazione Routes
+const routes = [{}];
+
+// Dichiarazione Router
+const router = new VueRouter({
+    routes
 });
+
+// Definizione Router Guard globale
+router.beforeEach((to, from, next) => {
+    // Titoli pagina dinamici
+    document.title = `${to.meta.title}`
+
+    next()
+})
+
+// Dichiarazione Vue
+const app = new Vue({
+    router
+}).$mount('#app');
