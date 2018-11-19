@@ -1,6 +1,6 @@
 # [Boilerplate] Laravel
 
-[![GitHub release](https://img.shields.io/badge/Release-1.0-lightgrey.svg)](https://github.com/lucacattide/laravel-boilerplate/releases/tag/1.0)
+[![GitHub release](https://img.shields.io/badge/Release-1.2-lightgrey.svg)](https://github.com/lucacattide/laravel-boilerplate/releases/tag/1.2)
 [![GitHub contributors](https://img.shields.io/badge/Contributors-1-lightgrey.svg)](https://github.com/lucacattide/laravel-boilerplate/graphs/contributors)
 
 ## Team
@@ -17,21 +17,21 @@ Boilerplate Laravel.
 
 ## 2) Limitazioni di Responsabilità
 
-- L'Utente mantiene la piena titolarità dei materiali da lui forniti (con "materiali" s'intende, a titolo d'esempio non esaustivo: testi, loghi, marchi, immagini, audiovisivi, documenti, grafici, schemi, progetti, ecc.), siano essi anche sensibili o personali, assumendo ogni responsabilità in ordine al loro contenuto ed alla loro gestione, con espresso esonero di NOME da ogni responsabilità ed onere di accertamento e/o controllo a riguardo;
+-   L'Utente mantiene la piena titolarità dei materiali da lui forniti (con "materiali" s'intende, a titolo d'esempio non esaustivo: testi, loghi, marchi, immagini, audiovisivi, documenti, grafici, schemi, progetti, ecc.), siano essi anche sensibili o personali, assumendo ogni responsabilità in ordine al loro contenuto ed alla loro gestione, con espresso esonero di NOME da ogni responsabilità ed onere di accertamento e/o controllo a riguardo;
 
-- NOME perciò, pur adoperandosi affinché ciò non avvenga, non può essere ritenuta responsabile in alcun caso per l'uso di dati, consegnati e/o richiesti dall'Utente, che fossero, all'insaputa di NOME stessa, coperti da diritto d'autore;
+-   NOME perciò, pur adoperandosi affinché ciò non avvenga, non può essere ritenuta responsabile in alcun caso per l'uso di dati, consegnati e/o richiesti dall'Utente, che fossero, all'insaputa di NOME stessa, coperti da diritto d'autore;
 
-- L'Utente utilizza i servizi a proprio rischio, NOME non è responsabile nei confronti di alcuna parte per controversie legali/civili o amministrative, danni indiretti, specifici, incidentali, punitivi, cauzionali o consequenziali (a titolo esemplificativo ma non esclusivo: danni in caso d'impossibilità di utilizzo od accesso ai servizi, perdita o corruzione di dati, di profitti, di clientela, danni d'immagine, interruzioni dell'attività o simili), causati dall'utilizzo o dall'impossibilità di utilizzare i servizi e basati su qualsiasi ipotesi di responsabilità inclusa la violazione di contratto, la negligenza o altro, anche nel caso in cui NOME sia stata avvisata della possibilità di tali danni e nel caso in cui una clausola prevista dal presente contratto non abbia posto rimedio;
+-   L'Utente utilizza i servizi a proprio rischio, NOME non è responsabile nei confronti di alcuna parte per controversie legali/civili o amministrative, danni indiretti, specifici, incidentali, punitivi, cauzionali o consequenziali (a titolo esemplificativo ma non esclusivo: danni in caso d'impossibilità di utilizzo od accesso ai servizi, perdita o corruzione di dati, di profitti, di clientela, danni d'immagine, interruzioni dell'attività o simili), causati dall'utilizzo o dall'impossibilità di utilizzare i servizi e basati su qualsiasi ipotesi di responsabilità inclusa la violazione di contratto, la negligenza o altro, anche nel caso in cui NOME sia stata avvisata della possibilità di tali danni e nel caso in cui una clausola prevista dal presente contratto non abbia posto rimedio;
 
-- NOME non può essere ritenuta responsabile per brevi malfunzionamenti dei servizi, causati da problemi tecnici su macchinari,servers, routers, linee telefoniche, reti telematiche, di sua proprietà o di soggetti selezionati per la fornitura dei servizi;
+-   NOME non può essere ritenuta responsabile per brevi malfunzionamenti dei servizi, causati da problemi tecnici su macchinari,servers, routers, linee telefoniche, reti telematiche, di sua proprietà o di soggetti selezionati per la fornitura dei servizi;
 
-- Non sono attribuibili a NOME malfunzionamenti dei servizi, perdite di dati, diffusione accidentale dei dati personali o sensibili, e qualsiasi altro tipo di danno verificatosi a seguito di attacchi da parte di pirati informatici (hackers, crackers, ecc.), malwares (virus, trojan, worms, ecc.) o altro;
+-   Non sono attribuibili a NOME malfunzionamenti dei servizi, perdite di dati, diffusione accidentale dei dati personali o sensibili, e qualsiasi altro tipo di danno verificatosi a seguito di attacchi da parte di pirati informatici (hackers, crackers, ecc.), malwares (virus, trojan, worms, ecc.) o altro;
 
-- NOME non può essere ritenuta responsabile per disservizi, interruzione dei servizi e/o danni imputabili a causa di forza maggiore quali incidenti, incendi, esplosioni, scioperi, serrate, terremoti, disastri, alluvioni, sommosse e altri eventi di difficile o impossibile previsione che impedissero, in tutto od in parte, di adempiere nei tempi o nei modi concordati ai termini di contratto;
+-   NOME non può essere ritenuta responsabile per disservizi, interruzione dei servizi e/o danni imputabili a causa di forza maggiore quali incidenti, incendi, esplosioni, scioperi, serrate, terremoti, disastri, alluvioni, sommosse e altri eventi di difficile o impossibile previsione che impedissero, in tutto od in parte, di adempiere nei tempi o nei modi concordati ai termini di contratto;
 
-- NOME non può essere ritenuta responsabile per il malfunzionamento dei servizi a causa di non conformità e/o obsolescenza degli apparecchi dei quali l'Utente o terze parti sono dotati;
+-   NOME non può essere ritenuta responsabile per il malfunzionamento dei servizi a causa di non conformità e/o obsolescenza degli apparecchi dei quali l'Utente o terze parti sono dotati;
 
-- NOME non può garantire all'Utente introiti sicuri derivanti dallo sfruttamento dei servizi;
+-   NOME non può garantire all'Utente introiti sicuri derivanti dallo sfruttamento dei servizi;
 
 ## 3) Informativa sul trattamento dei Dati Personali
 
@@ -48,12 +48,12 @@ NOME, ai sensi del DLgs. 679/2016 - Regolamento europeo in materia di protezione
 Questo applicativo utilizza i cookies e/o identificatori anonimi per gestire varie funzioni, di cui:
 
 1. Identificatori tecnici - finalizzati al coordinamento funzionale del sistema
-   - Navigazione \* Informative: pubblicizzazione selettiva di bollettini tecnici e di natura legale – Cookies;
-   - Comunicazione
-     - Notifiche: avvisi e bollettini tecnici destinati all'amministrazione ed all'utenza - sulla natura tecnica della comunicazione in oggetto del modulo - attraverso identificazione sensibile dei soggetti responsabili;
+    - Navigazione \* Informative: pubblicizzazione selettiva di bollettini tecnici e di natura legale – Cookies;
+    - Comunicazione
+        - Notifiche: avvisi e bollettini tecnici destinati all'amministrazione ed all'utenza - sulla natura tecnica della comunicazione in oggetto del modulo - attraverso identificazione sensibile dei soggetti responsabili;
 2. Piattaforme di terze parti - di proprietà di soggetti esterni alla titolarità del Sito
-   - Raccolta dati sul traffico:
-     - Google^!: collezionamento anonimo destinato all'analisi ed alla pubblicazione dei contenuti, per la comprensione dell'andamento del Sito;
+    - Raccolta dati sul traffico:
+        - Google^!: collezionamento anonimo destinato all'analisi ed alla pubblicazione dei contenuti, per la comprensione dell'andamento del Sito;
 
 Utilizzando il nostro sito web, accettate il fatto che possiamo caricare questo tipo di cookies nel vostro dispositivo.
 
@@ -64,35 +64,35 @@ Per informazioni consultate la Direttiva Europea (http://tinyurl.com/qayqqhk). I
 ## 6) Note Legali
 
 1. Contatti
-   - Tel. TELEFONO;
-   - E-Mail: E-MAIL;
-   - Sito Web: URL;
+    - Tel. TELEFONO;
+    - E-Mail: E-MAIL;
+    - Sito Web: URL;
 
-- Registrazioni
-  - © NOME 2018. Tutti i Diritti riservati.
+-   Registrazioni
+    -   © NOME 2018. Tutti i Diritti riservati.
 
 ## 7) Licenze
 
-- Nomi, marchi, loghi, foto, immagini e sorgenti sono tutelati dalle vigenti norme sul diritto d'autore, sono di proprietà dei legittimi intestatari;
+-   Nomi, marchi, loghi, foto, immagini e sorgenti sono tutelati dalle vigenti norme sul diritto d'autore, sono di proprietà dei legittimi intestatari;
 
-- Foto, immagini, sorgenti e softwares di terze parti appartengono ai legittimi proprietari;
+-   Foto, immagini, sorgenti e softwares di terze parti appartengono ai legittimi proprietari;
 
-- Softwares di terze parti sono coperti da rispettiva Licenza di Utilizzo;
+-   Softwares di terze parti sono coperti da rispettiva Licenza di Utilizzo;
 
-- Contenuti esclusivamente proprietari di NOME, sono coperti da Licenza Creative Commons - Attribuzione - Non opere derivate 3.0 Italia [CC BY-ND 3.0 IT (http://tinyurl.com/k5thym8)];
+-   Contenuti esclusivamente proprietari di NOME, sono coperti da Licenza Creative Commons - Attribuzione - Non opere derivate 3.0 Italia [CC BY-ND 3.0 IT (http://tinyurl.com/k5thym8)];
 
 Tramite questa licenza NOME assegna all'utente un diritto non esclusivo all’utilizzo dell'opera.
 L'utente è autorizzato a:
 
-- Fruire dell'opera fino alla scadenza dei termini e/o delle condizioni previste;
-- Permettere la fruizione dell'opera a terze parti nei limiti di quanto la normale fruizione permette (ad esclusione di accesso a sorgenti o altro – qualora non consentito);
+-   Fruire dell'opera fino alla scadenza dei termini e/o delle condizioni previste;
+-   Permettere la fruizione dell'opera a terze parti nei limiti di quanto la normale fruizione permette (ad esclusione di accesso a sorgenti o altro – qualora non consentito);
 
 L'utente non è autorizzato a:
 
-- Utilizzare l'opera per l’erogazione diretta di servizi a pagamento a favore di terze parti, salvo che non espressamente previsto in questa licenza;
-- Modificare l'opera in alcuna parte, nessuna esclusa – qualora non consentito;
-- Accedere agli eventuali sorgenti con qualsiasi scopo (ivi compreso appropriamento, copia, riutilizzo o altro – qualora non consentito);
-- Trasmettere o fornire accesso agli eventuali sorgenti a terze parti – qualora non consentito;
-- Assegnare in sub-licenza, affittare, vendere, locare, distribuire o trasferire in altra maniera l'opera o parte di essa – qualora non consentito;
+-   Utilizzare l'opera per l’erogazione diretta di servizi a pagamento a favore di terze parti, salvo che non espressamente previsto in questa licenza;
+-   Modificare l'opera in alcuna parte, nessuna esclusa – qualora non consentito;
+-   Accedere agli eventuali sorgenti con qualsiasi scopo (ivi compreso appropriamento, copia, riutilizzo o altro – qualora non consentito);
+-   Trasmettere o fornire accesso agli eventuali sorgenti a terze parti – qualora non consentito;
+-   Assegnare in sub-licenza, affittare, vendere, locare, distribuire o trasferire in altra maniera l'opera o parte di essa – qualora non consentito;
 
 Eventuali opere di terze parti utilizzate mantengono la propria licenza.

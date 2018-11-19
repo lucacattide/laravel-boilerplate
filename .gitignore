@@ -14,9 +14,7 @@
 /.vagrant
 /Capfile
 /Gemfile
-/Gemfile.lock
 /package.json
-/package-lock.json
 /webpack.*.js
 bootstrap/compiled.php
 Homestead.json
