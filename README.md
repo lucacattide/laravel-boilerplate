@@ -1,6 +1,6 @@
 # [Boilerplate] Laravel
 
-[![GitHub release](https://img.shields.io/badge/Release-1.2-lightgrey.svg)](https://github.com/lucacattide/laravel-boilerplate/releases/tag/1.2)
+[![GitHub release](https://img.shields.io/badge/Release-1.3-lightgrey.svg)](https://github.com/lucacattide/laravel-boilerplate/releases/tag/1.3)
 [![GitHub contributors](https://img.shields.io/badge/Contributors-1-lightgrey.svg)](https://github.com/lucacattide/laravel-boilerplate/graphs/contributors)
 
 ## Team
@@ -69,7 +69,7 @@ Per informazioni consultate la Direttiva Europea (http://tinyurl.com/qayqqhk). I
     - Sito Web: URL;
 
 -   Registrazioni
-    -   © NOME 2018. Tutti i Diritti riservati.
+    -   © NOME 2019. Tutti i Diritti riservati.
 
 ## 7) Licenze
 

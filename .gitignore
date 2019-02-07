@@ -7,7 +7,9 @@
 /public/storage
 /resources/js
 /resources/sass
+/storage/*.key
 /test
+/vendor
 /.editorconfig
 /.idea
 /.vscode
