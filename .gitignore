@@ -1,3 +1,4 @@
+/__test__/
 /config/deploy/
 /config/deploy.rb
 /lib/
@@ -16,7 +17,10 @@
 /.vagrant
 /Capfile
 /Gemfile
-/package.json
+!/package.*.json
+!/package.json
+/*.json
+/jest.*.js
 /webpack.*.js
 bootstrap/compiled.php
 Homestead.json
