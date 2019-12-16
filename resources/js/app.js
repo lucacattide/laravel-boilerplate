@@ -8,8 +8,6 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
-// TODO: Rimuovere in produzione
-Vue.config.productionTip = false;
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
