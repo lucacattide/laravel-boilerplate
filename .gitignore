@@ -17,8 +17,16 @@
 /.vagrant
 /Capfile
 /Gemfile
+!/_.browserslistrc
+!/.babelrc
+!/.gitattributes
+!/.github
+!/.gitignore
+!/.*.dist
 !/package.*.json
 !/package.json
+/_*
+/.*
 /*.json
 /jest.*.js
 /webpack.*.js
