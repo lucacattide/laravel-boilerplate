@@ -3,27 +3,31 @@
   <script src="js/lib/respond.min.js"></script>
 <![endif]-->
 <script async defer src="js/app.js"></script>
+<script async defer src="manifest.json"></script>
+<script async defer src="js/refresh.js"></script>
+<script async defer src="js/install.js"></script>
 <!--Inizio Rich Snippets-->
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+  "@context": "http://schema.org",
+  "@graph": [{
     "@type": "Organization",
     "url": "http://",
     "logo": "http:///themes/stack/img/logo.png",
     "contactPoint": [{
-    "@type": "ContactPoint",
-    "telephone": "+39-02-35-99-7654",
-    "contactType": "customer support",
-    "areaServed": [
+      "@type": "ContactPoint",
+      "telephone": "+39-02-35-99-7654",
+      "contactType": "customer support",
+      "areaServed": [
         "IT"
-    ],
-    "availableLanguage": {
+      ],
+      "availableLanguage": {
         "@type": "Language",
         "name": ["Italian"]
-    }
+      }
     }],
     "name": ""
-}, {
+  }, {
     "@context": "http://schema.org",
     "@type": "",
     "name": "",
@@ -31,24 +35,25 @@
     "image": "http:///themes/stack/img/logo.png",
     "@id": "http://",
     "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "",
-    "addressLocality": "",
-    "addressRegion": "",
-    "postalCode": "",
-    "addressCountry": "IT"
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "",
+      "postalCode": "",
+      "addressCountry": "IT"
     },
     "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": ,
-    "longitude":
+      "@type": "GeoCoordinates",
+      "latitude": ,
+      "longitude":
     },
     "telephone": "+39-"
-}, {
+  }, {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "",
     "url": "http://"
+  }]
 }
 </script>
 <!--Fine Rich Snippets-->
