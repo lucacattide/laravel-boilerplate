@@ -1,5 +1,19 @@
 # Best Practices
 
+## Styles & Coding
+
+- HTML, CSS and Javascript follow in general the Google Style Guide conventions (https://github.com/google/styleguide);
+- Custom CSS follows the BEM convention (http://getbem.com/);
+
+Please be sure to check and follow them before attempt any modification to the sources, in order to preserve the general integrity of the project patterns.
+Third-party linter plugins like ESLint, Beautify, Prettier or any other similar resource are welcome (configuration files of the mentioned ones are already present).
+
+## Assets
+
+### Common Guidelines
+
+- For assets inclusion location, specifications or their variations, please refeer to __TODO__ comments inside the sources;
+
 ## Repository
 
 ### Master
@@ -68,32 +82,25 @@ Es.
 
 ## Branches
 
--   **develop** (Sviluppo);
--   **staging** (Beta);
--   **master** (Produzione - _Default_);
+There are three branches, defined as:
+
+- __develop__ (Development);
+- __staging__ (Beta);
+- __master__ (Production - _Default_);
+
+Contributions implement the GitFlow framework (https://tinyurl.com/zt4vys8).
+Please read about its specifications before commit on any branch.
 
 ## Commits
 
--   **< Etichetta/Titolo >**
+### Commits
 
-    -   -**< Descrizione >**;
+Oficial Udacity Git commit message style guide is used. Please consult the docs (http://udacity.github.io/git-styleguide/) for details.
 
--   **Etichetta**: label identificativa oggetto dell'implementazione (se prevista);
--   **Titolo**: breve nomenclatura distintiva dell'oggetto dell'implementazione
--   **Descrizione**: breve nota illustrativa dell'implementazione effettuata;
+### Merges
 
-Es.
-
-```
-	Updates template
-
-	- Aggiornate icone;
-```
-
-## Merges
-
--   **staging**: merging da **develop**;
--   **master**: merging da **staging**;
+- __staging__: merging from __develop__;
+- __master__: merging from __staging__;
 
 ## Deployment
 
@@ -103,11 +110,11 @@ Es.
 
 -   **Beta**
     -   `cap staging deploy`
--   **Produzione** \* `cap production deploy`
+-   **Production** \* `cap production deploy`
 
 ## Host
 
-### Directories essenziali ^!
+### Essential directories ^!
 
 -   **.ssh**
 -   **releases**
@@ -115,7 +122,7 @@ Es.
 -   **shared**
 -   **current**
 
-### Files essenziali^!
+### Essential files^!
 
 -   **.ftpquota**
 -   **revisions.log**
